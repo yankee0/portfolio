@@ -1,11 +1,11 @@
 <?= $this->extend('layouts/html') ;?>
 <?= $this->section('title') ;?>
-Home
+Welcome🥳 (again😂)
 <?= $this->endSection() ;?>
 <?= $this->section('content') ;?>
-<p>yankee</p>
-<p><button type="button" class="btn btn-primary">Yankee</button></p>
-<p><button type="button" class="btn btn-danger">Yankee</button></p>
-<p><button type="button" class="btn btn-warning">Yankee</button></p>
+<?=view('components/header',['position'=>'HomePage'])?>
+<main>
+  <section class="plan d-flex align-items-center justify-content-center">yankee</section>
+</main>
 
 <?= $this->endSection() ;?>

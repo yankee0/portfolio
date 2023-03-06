@@ -1,4 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 * {
   font-family: "Oswald", sans-serif;
+  transition: -webkit-text-decoration 0.4s;
+  transition: text-decoration 0.4s;
+  transition: text-decoration 0.4s, -webkit-text-decoration 0.4s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section.plan {
+  height: 100vh;
+}
+
+.text {
+  color: #34495e;
+}
+
+.display-1 {
+  font-weight: 500;
+}
+
+nav .active {
+  color: #2980b9;
 }/*# sourceMappingURL=custom.css.map */
