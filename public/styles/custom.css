@@ -6,23 +6,31 @@
   transition: text-decoration 0.4s, -webkit-text-decoration 0.4s;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
 section.plan {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .text {
   color: #34495e;
 }
 
-.display-1 {
+.display-3 {
   font-weight: 500;
 }
 
-nav .active {
+header .active {
   color: #2980b9;
+}
+
+footer {
+  background-color: #34495e;
 }/*# sourceMappingURL=custom.css.map */
