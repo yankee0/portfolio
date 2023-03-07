@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 * {
   font-family: "Oswald", sans-serif;
   transition: -webkit-text-decoration 0.4s;
@@ -23,7 +24,7 @@ section.plan {
   color: #34495e;
 }
 
-.display-3 {
+.display-3, .display-4 {
   font-weight: 500;
 }
 
@@ -32,5 +33,23 @@ header .active {
 }
 
 footer {
-  background-color: #34495e;
+  background-color: #2c3e50;
+}
+
+#color {
+  background: #000;
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-size: contain;
+  background-position: center;
+}
+
+#canvas {
+  font-family: "Great Vibes", cursive;
+  color: transparent;
+  background: rgb(18, 222, 204);
+  background: linear-gradient(90deg, rgb(18, 222, 204) 35%, rgb(0, 212, 255) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
 }/*# sourceMappingURL=custom.css.map */
