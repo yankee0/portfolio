@@ -6,7 +6,7 @@
       <a title="Who is Yankee?🤔" class="px-3 <?= ($position === 'AboutMe') ? 'active' : '' ?>" href="<?= base_url('about-me') ?>">AboutMe</a>
       <a title="What can Yankee do?🤔" class="px-3 <?= ($position === 'MySkills') ? 'active' : '' ?>" href="<?= base_url('my-skills') ?>">MySkills</a>
       <a title="What did Yankee do?🤔" class="px-3 <?= ($position === 'MyProjects') ? 'active' : '' ?>" href="<?= base_url('my-projects') ?>">MyProjects</a>
-      <a title="Yup🙃" class="btn btn-primary mr-1" href="#" role="button">GetInTouch 👊🏾</a>
+      <a title="Yup🙃" class="btn btn-primary mr-1" href="<?= base_url('contact') ?>" role="button">GetInTouch 👊🏾</a>
     </div>
   </nav>
 </header>

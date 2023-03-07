@@ -10,4 +10,8 @@ class Web extends BaseController
     {
         return view('pages/home');
     }
+
+    public function coding(){
+        return view('pages/404');
+    }
 }

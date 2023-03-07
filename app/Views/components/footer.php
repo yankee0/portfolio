@@ -1,4 +1,4 @@
-<section class="bg-light text p-3 py-5">
+<section data-aos="fade-in" data-aos-duration="1000" class="bg-light text p-3 py-5">
   <div class="container text-center">
     <p class="h2">You can download my resume🙂, i made it with <span id="canvas">Canvas</span> :</p>
     <a title="thank's, 🙃You're welcome" class="btn btn-primary btn-lg" href="<?= base_url('El hadji Gorgui Faye.pdf') ?>" download role="button">Download Resume</a>
