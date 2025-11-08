@@ -13,4 +13,4 @@ Yo! 🗿
 
 ---
 
-Feel free to explore my work and get in touch! yankee@jawoo.io
+Feel free to explore my work and get in touch! [www.yankeesuprem.com](https://www.yankeesuprem.com)
