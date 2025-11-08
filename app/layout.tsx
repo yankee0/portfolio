@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fira_Code, Geist, Geist_Mono, Inter } from "next/font/google";
+import { Fira_Code,Inter } from "next/font/google";
 import "./globals.css";
 
 const fontSans = Inter({

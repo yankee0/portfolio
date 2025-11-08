@@ -13,5 +13,4 @@ Yo! 🗿
 
 ---
 
-Feel free to explore my work and get in touch! [yankee@jawoo.io](mailto:yankee@jawoo.io)
-yankee@jawoo.io
+Feel free to explore my work and get in touch! yankee@jawoo.io
