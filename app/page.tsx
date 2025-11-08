@@ -2,7 +2,7 @@ import Image from 'next/image'
 import logoSVG from "@/public/assets/yankee.svg"
 import Me, { SocialMedia } from '@/components/common/Me';
 import { TbBrandBehance, TbBrandGithubFilled, TbBrandInstagramFilled, TbBrandLinkedinFilled } from "react-icons/tb"
-import signatureImage from "@/public/assets/signature.png"
+// import signatureImage from "@/public/assets/signature.png"
 
 export default function page() {
 
@@ -63,7 +63,7 @@ export default function page() {
                 </span>
               </div>
             </div>
-            <Image src={signatureImage} alt="Yankee's Signature" className='w-40' />
+            {/* <Image src={signatureImage} alt="Yankee's Signature" className='w-40' /> */}
           </div>
         </div>
         <div className='w-full max-w-100 space-y-6'>
@@ -83,7 +83,7 @@ export default function page() {
                 </span>
               </div>
             </div>
-            <Image src={signatureImage} alt="Yankee's Signature" className='w-40' />
+            {/* <Image src={signatureImage} alt="Yankee's Signature" className='w-40' /> */}
           </div>
         </div>
       </div>
